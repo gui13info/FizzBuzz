@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffafa;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .box{
+    border: 1px solid #f0f0f5;
+    border-radius: 8px;
+    background-color: #f0f0f5;
+    width: 450px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .box input{
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container .box input:first-of-type{
+    margin-top: 20px;
+    display: none;
+}
+
+.container .box input:last-of-type {
+    margin-top: 15px;
+}
+
+.container .box .actions{
+    margin-top: 35px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box .actions .cont{
+    margin-right: 10px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+
+    background-color: #008000;
+    border: 1px solid #008000;
+    border-radius: 15px;
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.container .box .actions .cont:hover{
+    opacity: 0.7;
+}
+
+.container .box .actions .resete{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.container .box .actions .resete:hover{
+    opacity: 0.7;
+}
