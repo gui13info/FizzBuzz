@@ -3,16 +3,10 @@
 ## Sobre
 
 ```sh
-O desafio FizzBuzz é inspirado na 
-brincadeira da América do Norte chamado: "FizzBuzz". 
-O desafio foi desenvolvedo em dois 
-modelos. O 1º modelo possui uma 
-interface simples e que a contagem se 
-limita até 100, o 2º modelo foi 
-criado para funcionar apenas no 
-console do navegador, onde a contagem 
-é automática e também se limita em 
-contar até 100.
+O desafio FizzBuzz é inspirado na brincadeira da América do Norte chamado: "FizzBuzz". 
+O desafio foi desenvolvedo em dois modelos. O 1º modelo possui uma interface simples 
+e que a contagem se limita até 100, o 2º modelo foi criado para funcionar apenas no 
+console do navegador, onde a contagem é automática e também se limita em contar até 100.
 ```
 
 ```sh
@@ -24,7 +18,7 @@ modelos:
 
 1º Modelo:
 
-<br/><br/>
+<br/>
 
 <h1 align="center">
 <img src="https://github.com/gui13info/FizzBuzz/blob/master/Modelo%201/screen/fizzbuzz.gif" alt="Modelo 1 GIF" />
@@ -34,7 +28,7 @@ modelos:
 
 2º Modelo:
 
-<br/><br/>
+<br/>
 
 <h1 align="center">
 <img src="https://github.com/gui13info/FizzBuzz/blob/master/Modelo%202/screen/fizzbuzz.png" alt="Modelo 1 GIF" />
